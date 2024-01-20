@@ -1,0 +1,193 @@
+#slajder {
+
+	width: 100%;
+	height:800px;
+  background-image: url('../../assets/images/slajder.jpg');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-size: cover !important;
+	z-index: 2;
+	box-shadow: 0 0 40px rgba(0,0,0,.8);
+}
+#snizenje{
+  margin-top: 20%;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+}
+#snizenje h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+#snizenje p{
+  margin-bottom: 25px;
+}
+#snizenje a{
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+#snizenje a:hover{
+  background-color: #000000;
+  border: #000000;
+  transition: 0.2s;
+}
+#dole{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 120px 0px;
+}
+#slikaDole{
+    width: 45%;
+    float: left;
+
+}
+#slikaDole img{
+    width: 100%;
+}
+#slovaDole{
+    width: 45%;
+	float: right;
+	padding-top:140px;
+}
+#sd1 img{
+	width: 60px;
+	height: 60px;
+}
+#sd2{
+	margin-top: 50px;
+}
+#sd2 img{
+	width: 60px;
+	height: 60px;
+}
+#dole2{
+	width: 100%;
+	background-color: #f6f6f6;
+	height: 740px;
+}
+#datumDan{
+	padding-top: 20px;
+}
+#linija{
+	width: 100px;
+	height: 2px;
+	padding: 5px;
+	border-bottom: 2px solid #000000;
+	margin: 0px auto;
+}
+.style{
+	text-align: center;
+	font-size: 18px;
+	color:#000000;
+	margin-top: 5px
+}
+#dole2 h2{
+	padding:55px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.slideshow-container {
+	width: 90%;
+	height: 500px;
+	position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+.mySlides{
+  width: 25%;
+}
+.mySlides img{
+	width: 100%;
+}
+.mySlides p{
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(35,31,32);
+  font-weight: bold;
+  text-align: center;
+  margin: 7px;
+}
+.sd{
+	position: absolute;
+	background-color: #000000;
+	top:89%;
+	padding: 10px 30px;
+}
+.sd a{
+	font-size: 15px;
+	color: #ffffff;
+}
+#sld1{
+  	left:16.1% ;
+}
+#sld2{
+	left: 46.6%;
+}
+#sld3{
+	left: 77.1%;
+}
+#ponuda{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 100px;
+	padding-bottom: 120px;
+}
+#ponuda img{
+	width: 40%;
+	float: right;
+}
+#ptekst{
+	width: 40%;
+	float: left;
+	margin-left: 90px;
+}
+#ptekst h2{
+	margin-top: 80px;
+	padding: 60px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+#ptekst p{
+	font-size: 15px;
+	color:#000000;
+}
+
+.homeNew{
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(35,31,32);
+  font-weight: bold;
+}
+.homeOld{
+  font-weight: normal !important;;
+  font-size: 18px;
+  color: #424242;
+  text-decoration: line-through;
+}

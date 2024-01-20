@@ -1,0 +1,45 @@
+
+#heder{
+	width: 100%;
+	height: auto;
+	background-color:transparent;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	z-index: 4;
+	position: fixed;
+}
+#logo {
+	width: 65%;
+	float: left;
+}
+#logo h1{
+	padding: 15px 0px;
+}
+#logo a{
+    font-size: 32px;
+    font-weight: bold;
+
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+#lista{
+    width: 35%;
+	float: right;
+}
+#lista ul {
+
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#lista ul li{
+	font-size: 17px;
+	padding:23px;
+	color: #ffffff;
+}
+#lista ul li a{
+	color: #ffffff;
+}

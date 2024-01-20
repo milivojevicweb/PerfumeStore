@@ -1,0 +1,30 @@
+<div id="slajder2">
+  <h2>{{product.name | uppercase}}</h2>
+</div>
+
+
+<div class="omotac">
+  <div  *ngIf="product" class="parfem">
+      <div class="parfemSlika">
+          <img src="../../assets/images/{{product.image}}"  alt="MARCO parfemi ALLURE HOMME SPORT BLUE" />
+      </div>
+      <div class="parfemTekst">
+          <h2>{{product.category}} parfem</h2>
+          <div class="linijaParfem"></div>
+          <p>{{product.name}}</p>
+          <p>Nova cena: {{product.newPrice}}</p>
+          <p>Stara cena: {{product.oldPrice}}</p>
+          <div id="predmeti">
+            <p id="pInfo"class="zippy-heading" [class.expanded]="isExpanded" (click)="toggle()">Opis proizvoda</p>
+            <p class="zippy-body"
+              [hidden]="!isExpanded"
+              [@expandCollapse]="isExpanded ? 'expanded' : 'collapsed' "
+            >{{product.description}}</p>
+        </div>
+
+      </div>
+
+  </div>
+</div>
+
+

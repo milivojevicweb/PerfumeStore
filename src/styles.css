@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0px;
+  padding: 0px;
+box-sizing: border-box;
+}
+body, input, textarea{
+font-family: Helvetica,Open-Sans,"sans-serif-light",sans-serif;
+color: rgb(35,31,32);
+}
+
+a {
+color: rgb(35,31,32);
+text-decoration: none;
+}
+ul {
+list-style-type: none;
+
+}
+
+.cistac {
+clear: both;
+}
+.omotac {
+width: 1300px;
+margin: 0px auto;
+}
+.z{
+	z-index: 9;
+	margin-bottom: 689px;
+	background-color: #ffffff;
+	position: relative;
+}
+#slajder2{
+
+	width: 100%;
+	height:300px;
+	background-image: url('assets/images/sslajder2.jpg');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-size: cover !important;
+	z-index: 2;
+	box-shadow: 0 0 40px rgba(0,0,0,.8);
+}
+#slajder2 h2{
+	text-align: center;
+	margin-top: 140px;
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #ffffff;
+}
+input.ng-invalid.ng-dirty   {
+  border: 1px solid rgba(255, 17, 17, 0.8) !important;
+}

@@ -1,0 +1,21 @@
+#lista{
+  width: 27%;
+display: flex;
+float: right;
+}
+#lista ul {
+
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#lista ul li{
+font-size: 17px;
+padding:23px;
+color: #ffffff;
+}
+#lista ul li a{
+color: #ffffff;
+}

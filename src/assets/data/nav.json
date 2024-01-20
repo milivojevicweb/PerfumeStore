@@ -1,0 +1,17 @@
+[
+  {
+      "id" : 1,
+      "title":"POČETNA",
+      "path":"/"
+  },
+  {
+      "id" : 2,
+      "title":"PARFEMI",
+      "path":"/parfemi"
+  },
+  {
+      "id" : 3,
+      "title":"KONTAKT",
+      "path":"/kontakt"
+  }
+]

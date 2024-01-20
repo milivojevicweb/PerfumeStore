@@ -1,0 +1,42 @@
+<div id="slajder2">
+  <h2>KONTAKT</h2>
+</div>
+
+
+  <form action="#" method="GET">
+      <div id="kontakt">
+              <div class="omotac">
+                  <div id="klevo">
+                      <div class="kfa">
+                          <i class="fa fa-map-marker"></i>
+                          <p>Smederevska Palanka,Srbija</p>
+                      </div>
+                      <div class="kfa">
+                          <i class="fa fa-phone"></i>
+                          <p>063-111-1111</p>
+                      </div>
+                      <div class="kfa">
+                          <i class="fa fa-envelope"></i>
+                          <p>marko.milivojevic.167.17@ict.edu.rs</p>
+                      </div>
+                  </div>
+                  <div id="kdesno">
+                      <div id="forma1">
+                          <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                          <label id="imeError" *ngIf="name.errors?.pattern" >Unesite ispravno ime! </label>
+                          <input type="text"  ngModel required #name="ngModel" name="tbName" pattern="^[A-Z][a-z]{2,20}$" id="tbName" placeholder="Ime.." />
+                          <label id="prezimeError" *ngIf="lastname.errors?.pattern && lastname.touched" >Unesite ispravno prezime! </label>
+                          <input type="text" ngModel required name="tbSubject"  #lastname="ngModel" pattern="^[A-Z][a-z]{2,25}$" id="tbSubject" placeholder="Prezime.." />
+                          <label id="emailError" *ngIf="email.errors?.pattern" >Unesite ispravan email!</label>
+                          <input type="email" ngModel required name="tbEmail"  #email="ngModel" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" id="tbEmail" placeholder="Email.." />
+                          <label id="textError" *ngIf="text.errors?.pattern" >Unesite ispravan tekst!</label>
+                          <textarea id="tbBody" ngModel required name="tbBody"  #text="ngModel"  pattern="" placeholder="Poruka.." rows="7"></textarea>
+                           <input type="submit" [disabled]="!f.valid" (click)="onSend()" ng-class="{'diabled-class': !f.valid}" id="tbSend" value="Pošalji" name="tbSend"/>
+                           <p id="send">{{sendStatus}}</p>
+                          </form>
+                      </div>
+                      <div id="feedback"></div>
+                  </div>
+              </div>
+          </div>
+      </form>

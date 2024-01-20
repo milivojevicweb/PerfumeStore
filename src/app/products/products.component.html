@@ -1,0 +1,19 @@
+
+        <div id="slajder2">
+            <h2>PARFEMI</h2>
+        </div>
+
+        <div class="omotac">
+                <div id="brendovi">
+                    <div class="brend" *ngFor = "let item of products">
+                        <img src="../../assets/images/{{item.image}}" alt="MARCO parfemi muškarci"/>
+                            <div class="proizvod">
+                                <a [routerLink]="['/parfemi', item.id]"><div class="kupi">Pogledaj</div></a>
+                            </div>
+                            <p class="pName">{{item.name | uppercase}}</p>
+                            <p class="pDesc">{{item.description | shorten:70}}</p>
+                        <p class="starac">{{item.oldPrice | number}} RSD</p>
+                        <p class="novac">{{item.newPrice | number}} RSD</p>
+                    </div>
+                  </div>
+        </div>

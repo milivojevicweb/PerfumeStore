@@ -1,0 +1,56 @@
+<div e id="slajder">
+  <div class="omotac">
+    <div id="snizenje">
+      <h1> SNIŽENJE DO -50%</h1>
+      <p>Akcija se odnosi na sve artikle.</p>
+      <a [routerLink]="['/parfemi']">pogledaj</a>
+    </div>
+  </div>
+</div>
+        <div id="dole">
+                <div class="omotac">
+                    <div id="slikaDole">
+                      <img src='assets/images/dole1.jpg' alt='slika marco perfume parfemi'/>
+                    </div>
+                    <div id="slovaDole">
+                        <div id="sd1">
+                          <img src='assets/images/1.jpg' alt='slika marco perfume parfemi'/><p>Naši parfemi posebnim čine najkvalitetniji materijali uzgajan u Srbiji. Proizvodnja se obavlja na tradicionalan način, isključivo od prirodnih sastojaka.</p>
+                        </div>
+                        <div id="sd2">
+                          <img src='assets/images/2.jpg' alt=' slika marco perfume parfemi'/><p>Nema industrijske proizvodnje. Zanatski parfem proizvodi se u manjim pogonima, na manjim šaržama i, samim tim, otvara vrata uzbudljivom eksperimentisanju sa stilovima i receptima.</p>
+                        </div>
+                    </div>
+                </div>
+         </div>
+         <div id="dole2" @slide>
+
+             <p id="datumDan" class="style"></p>
+             <div id="linija"></div>
+             <p id="datumMesec" class="style"></p>
+             <h2>NAŠA PREPORUKA</h2>
+
+
+                <div class="slideshow-container" >
+
+                    <a class="mySlides" *ngFor = "let item of results" [routerLink]="['/parfemi', item.id]">
+                      <div  >
+                        <img src="../../assets/images/{{item.image}}" alt="MARCO fashion slider parfemi najboljeg kvaliteta" class='slika'>
+                        <p>{{item.name}}</p>
+                        <p class="homeOld">{{item.oldPrice | number}} RSD</p>
+                        <p class="homeNew">{{item.newPrice | number}} RSD</p>
+                    </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+        <div id="ponuda">
+          <div class='omotac'>
+            <div id='ptekst'>
+              <h2>EKSKLUZIVNO</h2>
+              <p>MARCO VENISE karakterišu dinamičke, oštre note limuna, mandarine i narandže koje otkrivaju lakoću i transparentnost. Iza ovog cvetnog vrtloga leži neverovatan osećaj života(živahan odjek cedra, praćen mekanim i pamučnim notama).</p>
+            </div>
+              <a routerLink="/parfemi/7"><img src='assets/images/za.jpg' alt='slika marco perfume parfemi'/></a>
+            </div>
+        </div>

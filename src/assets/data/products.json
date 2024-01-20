@@ -1,0 +1,122 @@
+[
+  {
+      "id" : 1,
+      "name" : "Allure Homme Sport",
+      "oldPrice" : 11490,
+      "newPrice" : 5900,
+      "category" : "Muški",
+      "image" : "musku.jpg",
+      "slider":"no",
+      "description" : "Posle pet godina nakon lansiranja Allure Homme, dom Marco je predstavio Allure Homme Sport koji je postao svežiji i oštriji. Početak je kristalno čist, zastupljen je notama vode i aldehidima. Zatim se ispoljava drveni začinski karakter mirisa, koji zahvaljujući prozračnom vetiveru nije orijentalno težak, već prozračan i lagan. U tragu su senzualni beli mošus, Tonka i amber. Dizajner mirisa je čuveni 'nos' doma Marco Jacques Polge. Parfem je napravljen 2004."
+  },
+  {
+      "id" : 2,
+      "name" : "Allure Homme Sport Blue",
+      "oldPrice" : 10190,
+      "newPrice" : 4990,
+      "category" : "Muški",
+      "slider":"yes",
+      "image" : "muski2.jpg",
+      "description" : "Posle jedanaest godina nakon lansiranja Allure Homme SPORT, dom Marco je predstavio Allure Homme Sport Blue koji je postao svežiji i oštriji. Početak je kristalno čist, zastupljen je notama vode i aldehidima. Zatim se ispoljava drveni začinski karakter mirisa, koji zahvaljujući prozračnom vetiveru nije orijentalno težak, već prozračan i lagan. U tragu su senzualni beli mošus, Tonka i amber. Dizajner mirisa je čuveni 'nos' doma Marco Jacques Polge. Parfem je napravljen 2015."
+  },
+  {
+      "id" : 3,
+      "name" : "Blue De Marco",
+      "oldPrice" : 11490,
+      "newPrice" : 5900,
+      "category" : "Muški",
+      "slider":"no",
+      "image" : "muski3.jpg",
+      "description" : "Bleu de Marco je muški miris koji će se naći na tržištu u toku 2010. godine. Kreator mirisa je Jacques Polge. Miris je sačinjen od aroma ružičastog bibera, citrusa, nane, muškarnog oraščića, vetivera, grejpa, kedra, tamjana, jasmina, tamjana, pačulija, đumbira i sandalovine."
+  },
+  {
+      "id" : 4,
+      "name" : "Marco White",
+      "oldPrice" : 25890,
+      "newPrice" : 12790,
+      "category" : "Muški",
+      "slider":"yes",
+      "image" : "muski4.jpg",
+      "description" : "Marco White je muški miris koji će se naći na tržištu u toku 2011. godine. Kreator mirisa je Jacques Polge. Miris je sačinjen od aroma  nane, muškarnog oraščića, vetivera, grejpa, kedra, jasmina, tamjana, đumbira i sandalovine."
+  },
+  {
+      "id" : 5,
+      "name" : "Pur Monsieur",
+      "oldPrice" : 22900,
+      "newPrice" : 12800,
+      "category" : "Muški",
+      "slider":"no",
+      "image" : "muski5.jpg",
+      "description" : "Pour Monsieur je večna klasika. Ovaj parfem ima 'inteligentnu' kompoziciju, koju je napravio Henri Robert, koja se otvara čitav dan i vodi dugu i prekrasnu igru na koži. Veoma rafiniran miris za elegantne i inteligentne muškarce. U visokim notama je citrusna svežina sa aromatično-citrusnim dodirom verbene: limun, verbena, neroli i naranža. Začinsko srce predstavlja svežu oštru, ali tanku smesu kardamona, korijandera, bosiljka i džumbira. Oštri završetak pravi hrastova mahovina i kedrovina. Parfem je napravljen 1955."
+  },
+  {
+      "id" : 6,
+      "name" : "Allure White",
+      "oldPrice" : 24990,
+      "newPrice" : 16990,
+      "category" : "Muški",
+      "slider":"yes",
+      "image" : "muski6.jpg",
+      "description" : "Allure White je muški miris koji će se naći na tržištu u toku 2010. godine. Postao svežiji i oštriji. Početak je kristalno čist, zastupljen je notama vode i aldehidima. Zatim se ispoljava drveni začinski karakter mirisa, koji zahvaljujući prozračnom vetiveru nije orijentalno težak, već prozračan i lagan. U tragu su senzualni beli mošus, Tonka i amber. Dizajner mirisa je Henri Robert."
+  },
+  {
+      "id" : 7,
+      "name" : "Venise",
+      "oldPrice" : 11490,
+      "newPrice" : 5900,
+      "category" : "Ženski",
+      "slider":"no",
+      "image" : "za.jpg",
+      "description" : "Stvaraoci Venise Dominique Ropion i Laurent Bruyere su bazirali kompoziciju na tri osnovne linije: toplog bijelog ambera u bazi, drvenih nota u srcu i sunčanog indijskog jasmina na samom početku kompozicije. Parfem je napravljen 2005. godine."
+  },
+  {
+      "id" : 8,
+      "name" : "Platinum Egoïste",
+      "oldPrice" : 10190,
+      "newPrice" : 5990,
+      "category" : "Ženski",
+      "slider":"yes",
+      "image" : "zenski2.jpg",
+      "description" : "Provokativni naziv se ponavlja u Egoïste-u Platinum. Egoïste Platinum, napravljen posle Egoïste-a, je svjetliji, svježiji sa klasičnom nijansom 'fougere'. Veoma tanka i elegantna aroma. Klasična visoka nota sa ruzmarinom, petitgrainom, cvetom narandže okružuje tradicionalni miris lavande, pomešanoj sa zelenim notama i žalfijom. Završna nota je meka drvena sa znacima mahovine, vetivera i labdanuma. Jacques Polge je dizajnirao miris 1993."
+  },
+  {
+      "id" : 9,
+      "name" : "Allure Homme Sensuelle",
+      "oldPrice" : 11490,
+      "newPrice" : 5900,
+      "category" : "Ženski",
+      "slider":"no",
+      "image" : "zenski3.jpg",
+      "description" : "Allure Homme Sensuelle je sačuvao svoju jedinstvenu šaljivu promjenljivost na koži sa blistavim citrusima, voćnim i cvetnim notama i prekrasnim drvenim akordima. Sličnost se nesumnjivo da osetiti, ali je uz to miris postao misteriozniji i tamniji."
+  },
+  {
+      "id" : 10,
+      "name" : "Coco Mademoiselle",
+      "oldPrice" : 20490,
+      "newPrice" : 10900,
+      "category" : "Ženski",
+      "slider":"yes",
+      "image" : "zenski4.jpg",
+      "description" : "Posle Coco, Coco Mademoiselle je sećanje na markantnu i kontradiktornu ličnost Gabriele Chanel. Miris je svjetliji u odnosu na Coco kao i njegova kutija. Miris se otvara blistavom naranžom i bergamotom. U srcu je bugarska ruža, jasmin, ylang-ylang i mimoza. U bazi su pačuli, vetiver, Tonka, opopanaks, vanilija i beli mošus. Parfem je napravio Jacques Polge 2001."
+  },
+  {
+      "id" : 11,
+      "name" : "N05",
+      "oldPrice" : 21490,
+      "newPrice" : 15900,
+      "category" : "Ženski",
+      "slider":"no",
+      "image" : "zenski5.jpg",
+      "description" : "Marco No 5 je prvi parfem u cvetno-aldehidnoj grupi, i prvi po količini aldehida u svojoj kompoziciji (druga legenda glasi da je asistent Ernesta Beaux greškom ih predozirao). U visokim notama su aldehidi, bergamot, limun, neroli, ylang-ylang; u srcu kompozicije je jasmin, ruža, đurđevak, iris; u bazi je vetiver, sandalovina, vanilija, amber, pačuli."
+  },
+  {
+      "id" : 12,
+      "name" : "Coco Noir",
+      "oldPrice" : 211490,
+      "newPrice" : 14990,
+      "category" : "Ženski",
+      "slider":"yes",
+      "image" : "zenski6.jpg",
+      "description" : "Nova Marco parfemska kreacija na tržište izlazi u avgustu 2012. godine i sledi liniju Coco (koja uključuje parfeme Coco iz 1984. i Coco Mademoiselle iz 2001. godine). Novi parfem nosi intrigantno i privlačno ime Coco Noir."
+  }
+]
